@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кондитерська</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Підключення бібліотеки Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <!-- Підключення бібліотеки Slick Carousel theme CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="caramel.jpg" alt="Логотип"></a>
+        </div>
+        <div class="title">
+            <h1>Солона карамель</h1>
+            <p class="sub-title">у нас найкращі ласощі</p> <!-- Додано клас sub-title -->
+        </div>
+        <nav class="nav-right">
+            <ul>
+                <li><a href="#menu">Меню та акції</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Ласощі на кожен смак</h2>
+        <p>Ласкаво просимо до нашої кондитерської, де ви знайдете найсмачніші десерти та карамельки!</p>
+    </section>
+
+    <section id="menu">
+        <h2 style="text-align: center;">Акційні ласощі</h2>
+        
+        <!-- Карусель -->
+        <div class="image-carousel-menu">
+            <div><img src="desserts1.png" alt="Фото 1"></div>
+            <div><img src="desserts2.png" alt="Фото 2"></div>
+            <div><img src="desserts3.png" alt="Фото 3"></div>
+            <div><img src="desserts4.png" alt="Фото 4"></div>
+            <div><img src="desserts5.png" alt="Фото 5"></div>
+        </div>
+        <h2 style="text-align: center;">Найпопулярніші ласощі</h2>
+        <div class="desserts-grid">
+            <div class="dessert-item">
+                <img src="des1.jpg" alt="Десерт 1">
+                <h3>Київський торт</h3>
+                <p>цей десерт став улюбленцем багатьох людей не тільк завдяки текстурі, а й своїм неперевершеним смаком - який ви ніколи не зможете забути</p>
+            </div>
+            <div class="dessert-item">
+                <img src="des2.jpg" alt="Десерт 2">
+                <h3>шоколадний фондан</h3>
+                <p>цей десерт вражає своєю ніжністю, коли ви його скуштуєте - у вашому роті буде вибух смаку та неповтоних емоцій! Це напевно і є задоволення?</p>
+            </div>
+            <div class="dessert-item">
+                <img src="des3.jpg" alt="Десерт 3">
+                <h3>наполеон</h3>
+                <p>Кажуть: "як корабель назвеш, так він і попливе", ось і з десертами так само! Цей десерт - завойовник! Тільки не тереторій, а людських думок та сердець</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Кондитерська "Солона карамель" - це місце, де кожен може насолодитися смачними десертами та приємно провести час в затишній атмосфері Львова.</p>
+        <div class="image-container">
+            <!-- Фотографія карти -->
+            <a href="https://www.google.com/maps/place/вул.+Галицька,+12,+Львів,+Україна" target="_blank"><img src="maps.png" alt="Фото карти"></a>
+        </div>
+    </section>
+
+    <section id="contact" class="footer">
+        <div class="contact-info">
+            <img src="cafe.png" alt="Фото кафе" class="cafe-photo">
+            <div>
+                <h2>Контакти</h2>
+                <p>Телефон: <a href="tel:+380980141216">+380980141216</a></p>
+                <p>Телеграм: <a href="https://t.me/petya_roshen_sweet">petya_roshen_sweet</a></p>
+                <p>Інстаграм: <a href="https://www.instagram.com/to_nazarko/">to_nazarko</a></p>
+                <p>ТікТок: <a href="https://www.tiktok.com/@to_nazarko">to_nazarko</a></p>
+                <p>Фейсбук: <a href="https://www.facebook.com/Назар Крукиницький">Назар Крукиницький</a></p>
+                <p>© 2024 Кондитерська. Усі права захищені.</p>
+                </div>
+                </div>
+                </section>
+                
+                <!-- Підключення бібліотеки jQuery -->
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <!-- Підключення бібліотеки Slick Carousel -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+                <script>
+                    $(document).ready(function(){
+                        $('.image-carousel-menu').slick({
+                            autoplay: true, // Включає автоматичне прокручування
+                            autoplaySpeed: 3000, // Швидкість прокручування в мілісекундах (наприклад, 3000 мс = 3 секунди)
+                            arrows: false, // Вимикає стрілки навігації (можна включити, якщо потрібно)
+                            dots: true // Включає крапки навігації
+                        });
+                    });
+                </script>
+                </body>
+                </html>

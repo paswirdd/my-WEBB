@@ -1,0 +1,120 @@
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 100px; /* Розмір зображення логотипу */
+    height: auto;
+}
+
+.header {
+    background-color: hsl(343, 86%, 28%); /* Рожевий колонтитул */
+    padding: 10px;
+    text-align: start;
+    color: #fff; /* Колір тексту у колонтитулі */
+    display: flex; /* Встановлюємо flex контейнер для вирівнювання */
+    justify-content: space-between; /* Вирівнюємо елементи по краях контейнера */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Змінюємо відступ між елементами */
+}
+
+.nav-right {
+    margin-left: auto; /* Розміщуємо навігацію праворуч */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.cafe-photo {
+    width: 20%; /* Зменшуємо розмір фотографії до 40% ширини вікна */
+    float: left; /* Вирівнюємо фотографію зліва */
+    margin-right: 20px; /* Додатковий відступ між фотографіями */
+}
+#menu .image-carousel-menu div img {
+    max-width: 400px; /* Змініть це значення на бажане */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Вирівнювання по центру */
+}
+.cafe-photo {
+    width: 10%; /* Зменшуємо розмір фотографії до 20% ширини вікна */
+}
+#about .image-container {
+    display: flex; /* Встановлюємо flex контейнер */
+}
+
+#about img {
+    width: 40%; /* Зменшуємо розмір фотографій до 40% ширини вікна */
+    margin-right: 20px; /* Додатковий відступ між фотографіями */
+}
+
+.sub-title {
+    font-size: 14px; /* Зменшуємо розмір шрифту на 14px */
+}
+
+/* для каруселі */
+.slick-slide img {
+    width: 100%; /* Розмір фотографій у каруселі - 100% ширини слайда */
+    height: auto; /* Автоматична висота фотографії */
+}
+
+.footer {
+    background-color: hsl(343, 86%, 28%); /* Рожевий колонтитул */
+    color: #fff; /* Колір тексту у колонтитулі */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info img {
+    width: 20%; /* Зменшуємо розмір фотографії до 20% ширини вікна */
+    margin-right: 20px; /* Додатковий відступ між фотографією і текстом */
+}
+.desserts-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dessert-item {
+    flex: 0 1 calc(30% - 10px); /* Встановлюємо ширину елемента з урахуванням відступів */
+    margin-bottom: 20px; /* Відступ між елементами */
+    padding: 10px; /* Відступ всередині елемента */
+    border: 2px solid #ccc; /* Товщина рамки та колір */
+    border-radius: 10px; /* Радіус заокруглення рамки */
+    text-align: center; /* Вирівнюємо текст по центру */
+}
+.dessert-item img {
+    max-width: 100px; /* Максимальна ширина зображення */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+}
